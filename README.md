@@ -9,3 +9,5 @@ This repository contains interfaces for Concentrated Liquidity Market Maker (CLM
 - RewarderGlobalVault: `0x87be56e85d020cc1a3e9507cbfc3087c9b19e08d9ce9c39ac22f70c2206d2026`
 - Stats: `0xde78eef470e06033becc250c3083529ffd775e750d0b2f3078763757dcff97d2`
 - PriceProvider: `0x24137497ad14221f8e3ca0e0a6308f4b8937bfd308582dcb106900fe7f9acdf2`
+
+- USDC/SUI Pool 0x209636634973adbc87326370d197529cd7960e8ca8d2a01a600b375269c93bd6
