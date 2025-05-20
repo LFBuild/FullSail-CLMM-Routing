@@ -2,7 +2,7 @@
 
 This repository contains interfaces for Concentrated Liquidity Market Maker (CLMM) pool methods to implement routing functionality. It provides the necessary abstractions and type definitions for working with concentrated liquidity pools in a routing context.
 
-## CLMM Test Version Addresses (Mainnet)
+## CLMM Addresses (Mainnet)
 
 - Integrate Package: `0x33099e34713487116f34c2beb736517e23f568101386f5dc82f7400eead2b442`
 - GlobalConfig: `0x5771eae1894344bc43d9cf44f0855051b83137199205c6e4d43d914b8b7b9f9f`
