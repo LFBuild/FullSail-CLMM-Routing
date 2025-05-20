@@ -1,0 +1,28 @@
+[package]
+name = "integrate"
+edition = "2024"
+
+[addresses]
+integrate = "0x0"
+
+[dev-dependencies]
+
+[dev-addresses]
+
+[dependencies.Sui]
+git = "https://github.com/MystenLabs/sui.git"
+subdir = "crates/sui-framework/packages/sui-framework"
+rev = "framework/mainnet"
+override = true
+
+[dependencies.clmm_pool]
+git = "https://github.com/LFBuild/FullSail-CLMM-SC.git"
+subdir = "clmm_pool"
+rev = "main"
+override = true
+
+[dependencies.price_provider]
+git = "https://github.com/LFBuild/FullSail-CLMM-SC.git"
+subdir = "price_provider"
+rev = "main"
+override = true
