@@ -12,3 +12,9 @@ This repository contains interfaces for Concentrated Liquidity Market Maker (CLM
 - Pools: `0x7e2c747393daa61ce150f47ad67ef2a1c3fc87addb093e525c636123934acd44`
 
 - USDC/SUI Pool `0x209636634973adbc87326370d197529cd7960e8ca8d2a01a600b375269c93bd6`
+
+## Getting Pool Information
+
+To get information about liquidity pools, you can use the `fetch_pools` method from the `factory` module. This method returns a vector of `PoolSimpleInfo` structures containing basic pool information.
+
+The `tick_spacing` field from `PoolSimpleInfo` can be used to determine the swap fee rate by calling `fee_tiers` from the `config` module, where each `tick_spacing` corresponds to a specific `fee_rate`.
