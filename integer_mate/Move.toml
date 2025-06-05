@@ -1,22 +1,12 @@
 [package]
-name = "integrate"
+name = "integer_mate"
 edition = "2024"
 
 [addresses]
-integrate = "0x0"
-
-[dev-dependencies]
-
-[dev-addresses]
+integer_mate = "0x0"
 
 [dependencies.Sui]
 git = "https://github.com/MystenLabs/sui.git"
 subdir = "crates/sui-framework/packages/sui-framework"
 rev = "framework/mainnet"
 override = true
-
-[dependencies.clmm_pool]
-local = "../clmm_pool"
-
-[dependencies.price_provider]
-local = "../price_provider"

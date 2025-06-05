@@ -1,9 +1,9 @@
 [package]
-name = "clmm_pool"
-edition = "2024"
+name = "price_provider"
+edition = "2024.beta"
 
 [addresses]
-clmm_pool = "0x0"
+price_provider = "0x0"
 
 [dev-dependencies]
 
@@ -14,12 +14,3 @@ git = "https://github.com/MystenLabs/sui.git"
 subdir = "crates/sui-framework/packages/sui-framework"
 rev = "framework/mainnet"
 override = true
-
-[dependencies.move_stl]
-local = "../move_stl"
-
-[dependencies.integer_mate]
-local = "../integer_mate"
-
-[dependencies.price_provider]
-local = "../price_provider"

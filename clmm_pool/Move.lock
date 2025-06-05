@@ -2,11 +2,13 @@
 
 [move]
 version = 3
-manifest_digest = "200D261152CF5B6018ED3A38D9A24C85D4A9768AEC5E57EC7A0B3E9EEB0A3A7C"
-deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
+manifest_digest = "BEC8701D96E323C8B663CCA6393ADD6250B6D5B0AC009439FD2E70146FF7C8E6"
+deps_digest = "F9B494B64F0615AED0E98FC12A85B85ECD2BC5185C22D30E7F67786BB52E507C"
 dependencies = [
   { id = "Sui", name = "Sui" },
+  { id = "integer_mate", name = "integer_mate" },
   { id = "move_stl", name = "move_stl" },
+  { id = "price_provider", name = "price_provider" },
 ]
 
 [[move.package]]
@@ -22,14 +24,30 @@ dependencies = [
 ]
 
 [[move.package]]
+id = "integer_mate"
+source = { local = "../integer_mate" }
+
+dependencies = [
+  { id = "Sui", name = "Sui" },
+]
+
+[[move.package]]
 id = "move_stl"
-source = { git = "https://github.com/LFBuild/FullSail-CLMM-SC.git", rev = "main", subdir = "move_stl" }
+source = { local = "../move_stl" }
+
+dependencies = [
+  { id = "Sui", name = "Sui" },
+]
+
+[[move.package]]
+id = "price_provider"
+source = { local = "../price_provider" }
 
 dependencies = [
   { id = "Sui", name = "Sui" },
 ]
 
 [move.toolchain-version]
-compiler-version = "1.48.0"
+compiler-version = "1.49.1"
 edition = "2024"
 flavor = "sui"
