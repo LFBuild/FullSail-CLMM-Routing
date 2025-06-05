@@ -12,13 +12,13 @@ This repository contains interfaces for Concentrated Liquidity Market Maker (CLM
 - PriceProvider: `0x854b2d2c0381bb656ec962f8b443eb082654384cf97885359d1956c7d76e33c9`
 - Pools: `0x0efb954710df6648d090bdfa4a5e274843212d6eb3efe157ee465300086e3650`
 
-Pool ids:
+You can fetch all the available pools using `Pools` object, but here are examples of our pools:
 - USDC-WBTC `0x195fa451874754e5f14f88040756d4897a5fe4b872dffc4e451d80376fa7c858`
 - USDC-SUI `0x7fc2f2f3807c6e19f0d418d1aaad89e6f0e866b5e4ea10b295ca0b686b6c4980`
 - USDC-USDT `0xb41cf6d7b9dfdf21279571a1128292b56b70ad5e0106243db102a8e4aea842c7`
 - USDC-ETH `0x90ad474a2b0e4512e953dbe9805eb233ffe5659b93b4bb71ce56bd4110b38c91`
-- USDC-WAL `0xa461b5cc4ec3644fc44f9c92f0f780e1778a7445ca89de5119bca6d335b4d518`
-- DEEP-USDC `0x43fd477a2c8ead127e6a51f9c2cebe0c42bdcf14748183c9c1dba637887773c7`
+- WAL-SUI `0x20e2f4d32c633be7eac9cba3b2d18b8ae188c0b639f3028915afe2af7ed7c89f`
+- DEEP-SUI `0xd0dd3d7ae05c22c80e1e16639fb0d4334372a8a45a8f01c85dac662cc8850b60`
 
 ## Getting Pool Information
 
